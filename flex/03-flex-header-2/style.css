@@ -25,14 +25,14 @@ body {
   margin: 8px;
 }
 
-.containerone {
+.left {
   display: flex;
   align-items: center;
   margin: 16px;
   gap: 16px;
 }
 
-.containertwo {
+.right {
   display: flex;
   gap: 16px;
   margin-left: auto;
@@ -47,7 +47,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  align-self: center;
 }
 
 button {
@@ -67,5 +66,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 8px;
+  gap: 16px;
+  margin: 0 0;
+  padding: 0 0;
 }
