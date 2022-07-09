@@ -44,3 +44,8 @@ body {
 .info {
   max-width: 200px;
 }
+
+/* why this is better: setting max-width of .info flex container forces the content to wrap
+making the text fall under the image. gap is obviously better but I forgot it existed.
+margin-bottom is also simpler. aligning all the text to center in body is also simpler.
+then of course justify-content puts everything in the center. */
