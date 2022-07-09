@@ -2,10 +2,6 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-img {
-  width: 100px;
-  height: 100px;
-}
 
 .flex {
   display: flex;
@@ -15,6 +11,13 @@ img {
   align-content: space-evenly;
   margin: auto 52px;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+
 
 .text {
   width: 200px;
