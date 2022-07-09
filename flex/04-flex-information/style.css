@@ -12,11 +12,13 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
   height: 200px;
-  width: 200px;
+  align-content: space-evenly;
+  margin: auto 52px;
 }
 
 .text {
-
+  width: 200px;
+  text-align: center;
 }
 
 /* consider adding flex property to .text? Now each class is a flex item for .text? */
@@ -26,6 +28,7 @@ img {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  margin: 0 auto 32px;
 }
 
 /* do not edit this footer */
