@@ -51,16 +51,23 @@ body {
 
 .one {
   display: flex;
-  margin: 15px;
-  flex: 1 1 auto;
+  margin: 17px;
   flex-wrap: wrap;
+}
+
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 52px;
+  width: 379px;
+  gap: 5px;
 }
 
 /* consider adding .one to all content? */
 
 .header {
   flex: 1 1 auto;
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -74,12 +81,14 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
-  flex: 1 2 auto;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
-  flex: 1 2 auto;
+}
+
+.text {
+  margin-bottom: 15px;
 }
