@@ -46,12 +46,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2px;
 }
 
-.container {
+.one {
   display: flex;
-  margin: 10px;
+  margin: 15px;
 }
+
+/* consider adding .one to all content? */
 
 .header {
   flex: 1 1 auto;
@@ -69,10 +72,12 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  flex: 1 2 auto;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  flex: 1 2 auto;
 }
