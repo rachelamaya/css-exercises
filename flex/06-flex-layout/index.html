@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div class="header">
+    <div class="container">
+    <div class="header"> <!--child of .container-->
       <ul class="left-links">
         <li><a href="#">About</a></li>
         <li><a href="#">Store</a></li>
@@ -18,7 +19,7 @@
         <li><a href="#">Settings</a></li>
       </ul>
     </div>
-    <div class="content">
+    <div class="content">  <!--child of .container, flex container-->
       <img src="./logo.png" alt="">
       <div class="input">
         <input type="text">
@@ -28,7 +29,7 @@
         <button>Do the other thing!</button>
       </div>
     </div>
-    <div class="footer">
+    <div class="footer">  <!--child of .container-->
       <ul class="left-links">
         <li><a href="#">Advertising</a></li>
         <li><a href="#">Business</a></li>
@@ -38,5 +39,6 @@
         <li><a href="#">Terms</a></li>
       </ul>
     </div>
+  </div>
   </body>
 </html>
